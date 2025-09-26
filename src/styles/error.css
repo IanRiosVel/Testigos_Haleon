@@ -20,3 +20,27 @@
     text-decoration: none;
     
 }
+
+@media (max-width: 768px) {
+  .error-page {
+    padding: 30px;
+  }
+
+  .error-page h1 {
+    font-size: 2rem;
+  }
+
+  .error-page p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  .error-page img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .error-page a p {
+    font-size: 1em;
+  }
+}

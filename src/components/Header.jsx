@@ -4,6 +4,7 @@ import "../styles/header.css";
 
 export default function Header() {
     const [darkMode, setDarkMode] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);
 
     useEffect(() => {
         if (darkMode) {
@@ -18,7 +19,7 @@ export default function Header() {
             <header className="header">
                 <div className="header-left">
                     <nav>
-                        <ul>
+                        <ul className={`nav-list ${menuOpen ? "open" : ""}`}>
                             <li><Link to="/">Home</Link></li>
                             <li><Link to="/multivitaminicos">Multivitaminicos</Link></li>
                             <li><Link to="/oral_health">Oral Health</Link></li>
@@ -34,6 +35,9 @@ export default function Header() {
                 </div>
 
                 <div className="header-right">
+                    <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+    ☰
+</div>
                     <img src="https://i.postimg.cc/7Zgyxv8b/haleon.png" alt="Logo" style={{ width: '25%', height: 'auto' }} />
                     <button
                         onClick={() => setDarkMode(!darkMode)}
