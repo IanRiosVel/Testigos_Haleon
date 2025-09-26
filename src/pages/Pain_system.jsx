@@ -6,7 +6,7 @@ import Error from "../components/Errorpage";
 // import aspirina from "../assets/Digital/aspirina.mp4"
 // import temprabanner from "../assets/Digital/tempra1.mp4"
 
-const marcas_tradicionales = [ {nombre: "Dolo Neurobion",video: "https://i.postimg.cc/7Zgyxv8b/haleon.png", inicio_programa: "Fecha de transmisión: 1 de Agosto 2025",
+const marcas_tradicionales = [ {nombre: "Dolo Neurobion",video: "https://auditsa.com.mx/TestigosHandler/TestigosMasterHandler.ashx?hitid=16404940&sptid=16404940&matype=VIDEO&key=098A6F85CA0AA9A0C1D72A426C4C54C5.mp4", inicio_programa: "Fecha de transmisión: 1 de Agosto 2025",
     genero:"Genero de programa: Comedia, Concursos, Deportes, Dibujos animados, Documentales, Espectaculos, Noticias, Peliculas, Reality Show, Revista, Series, Talk Show, Telenovela", canal: "Canal: Azteca Uno, Azteca 7, Canal 5, Las Estrellas, Cinemax, Discovery Channel, El nu9ve, Fox Sports, FX, Golden, Golden Edge, Multimedios, Space, Star Channel, TL Novelas, TNT,TUDN, Univeral TV, Warner",
 tipo_spot: "Tipo de Spot: Spot Regular", duracion: "Duración: 20 segundos",franja:"Franja: Morning, Afternoon, Over Night, Prime time",programa:"Programa: --"},
 {nombre: "Alliviax",video: "https://i.postimg.cc/7Zgyxv8b/haleon.png", inicio_programa: "Fecha de transmisión: 7 de Agosto 2025",
