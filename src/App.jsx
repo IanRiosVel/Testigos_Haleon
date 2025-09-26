@@ -3,7 +3,7 @@ import Home from './pages/Home';
 import Header from './components/Header';
 import Multivitaminicos from './pages/Multivitaminicos';
 import Systematic from './pages/Pain_system';
-import Oralh from './pages/oral_health';
+import Oralh from './pages/Oral_health';
 import Topic from './pages/pain_topic';
 import FijadorDen from './pages/Fijador_dental';
 import Antitusives from './pages/Antitusives';
