@@ -1,0 +1,22 @@
+.error_container:hover{
+    border-radius: 17px;
+    background-color: #bb97bf;
+    margin: 15px;
+}
+
+.error-page{
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.error-page p{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+
+}
+.error-page a{
+    text-decoration: none;
+    
+}

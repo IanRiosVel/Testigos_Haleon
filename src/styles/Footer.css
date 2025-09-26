@@ -1,0 +1,21 @@
+.footer{
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #001658;
+    color: white;
+}
+
+.logo_footer {
+    width: 15%;
+    height: 25%;
+    padding: 10px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}

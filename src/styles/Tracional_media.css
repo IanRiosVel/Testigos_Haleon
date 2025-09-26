@@ -1,0 +1,10 @@
+.bottons_trad:hover{
+    background-color: #c265ed;
+    color: white;
+    transition: 0.3s;
+}
+.bottons_dig:hover{
+    background-color: #c265ed;
+    color: white;
+    transition: 0.3s;
+}
